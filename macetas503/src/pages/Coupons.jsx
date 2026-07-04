@@ -37,7 +37,7 @@ export default function Coupons() {
 
   const { page, totalPages, currentItems, nextPage, prevPage, goToPage } = usePagination(filtered, 3);
 
-  // Canjear un cupón: si ya estaba canjeado, solo vuelve a mostrar el modal (Ver Cupón)
+  // Canjear un cupón ya que  si ya estaba canjeado, solo vuelve a mostrar el Ver Cupón
   const handleAction = (coupon) => {
     const alreadyRedeemed = redeemedIds.includes(coupon.id);
     if (alreadyRedeemed) {

@@ -3,7 +3,7 @@ import { Link } from "react-router";
 import { GiftIcon } from "./Icons.jsx";
 import Button from "./Button.jsx";
 
-// Genera un código personal de 8 dígitos al azar
+// Genera un código personal de 8 dígitos al azar por prueba 
 function buildCode() {
   return String(Math.floor(10000000 + Math.random() * 89999999));
 }
@@ -12,7 +12,7 @@ export default function ReferralModal({ open, onClose, onConfirm }) {
   const [code, setCode] = useState(buildCode);
   const [copied, setCopied] = useState(false);
 
-  // Cada vez que se abre el modal se genera un código personal nuevo
+  // Cada vez que se abre el modal se genera un código nuevo 
   useEffect(() => {
     if (open) {
       setCode(buildCode());

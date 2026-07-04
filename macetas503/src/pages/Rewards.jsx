@@ -15,7 +15,7 @@ import rewardKit from "../assets/product-geo-vases.png";
 
 const TABS = ["Cupones", "Productos", "Envíos Gratis"];
 
-// Catálogo de recompensas por categoría (datos locales, sin backend)
+// Catálogo de recompensas por categoría 
 const REWARDS_BY_TAB = {
   Cupones: [
     { id: 1, title: "10% OFF en macetas", description: "Aplica para cualquier maceta de nuestra colección artesanal.", cost: 300, image: rewardPot },

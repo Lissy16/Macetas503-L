@@ -1,6 +1,6 @@
 import { GiftIcon, CouponIcon } from "./Icons.jsx";
 
-// Fila individual del historial de puntos
+// historial de puntos
 export default function HistoryItem({ item }) {
   const isEarned = item.type === "earned";
   const Icon = isEarned ? GiftIcon : CouponIcon;

@@ -27,7 +27,7 @@ const appRoutes = [
 function App() {
   return (
     <Router>
-      {/* Provider global: expone puntos, nivel e historial a toda la app */}
+      {/* expone puntos, nivel e historial*/}
       <LoyaltyProvider>
         <div className="min-h-screen">
           <main className="w-full">

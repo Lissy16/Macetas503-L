@@ -34,7 +34,7 @@ export default function Home() {
         <p className="text-gray-500 mt-1">Tu jardín está creciendo. Sigue cultivando beneficios.</p>
       </div>
 
-      {/* Tarjeta de nivel/balance con accesos rápidos */}
+      {/* de nivel/ y balance con accesos rápidos */}
       <LevelProgressCard />
 
       {/* Ofertas activas */}

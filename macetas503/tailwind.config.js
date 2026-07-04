@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Paleta principal tomada del diseño (verde botánico + dorado)
+        // Paleta principal verde botánico y dorado
         primary: {
           50: "#f1f6f2",
           100: "#dcebe0",
@@ -12,9 +12,9 @@ export default {
           300: "#84b892",
           400: "#549b68",
           500: "#2f7a45",
-          600: "#1f5c33", // verde principal (header/botones)
+          600: "#1f5c33", // verde principal 
           700: "#184a29",
-          800: "#0f3319", // verde oscuro (footer/hero)
+          800: "#0f3319", // verde oscuro 
           900: "#0a2312",
         },
         gold: {

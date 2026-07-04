@@ -1,6 +1,6 @@
 import { ChevronLeftIcon, ChevronRightIcon } from "./Icons.jsx";
 
-// Componente de paginación reutilizable, mismo estilo en Historial, Recompensas y Cupones
+// componente en estilo de Historial, Recompensas y Cupones
 export default function Pagination({ page, totalPages, onPrev, onNext, onGoTo }) {
   if (totalPages <= 1) return null;
 

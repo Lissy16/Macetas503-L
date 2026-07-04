@@ -1,8 +1,8 @@
 import { useRoutes, useLocation } from "react-router";
 import { AnimatePresence, motion } from "framer-motion";
 
-// Recibe un arreglo de rutas (mismo formato que useRoutes de react-router)
-// y anima la transición entre páginas con un fade + leve desplazamiento.
+//  Aqui Recibe un arreglo 
+// y eldesplazamiento.
 export default function AnimatedRoutes({ routes }) {
   const location = useLocation();
   const element = useRoutes(routes, location);

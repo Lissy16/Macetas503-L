@@ -3,7 +3,7 @@ import { useNavigate } from "react-router";
 import { GiftIcon } from "./Icons.jsx";
 import Button from "./Button.jsx";
 
-// Genera un código de descuento simple a partir del título de la recompensa
+// Genera un código de descuento 
 function buildCode(title) {
   const slug = title
     .normalize("NFD")
@@ -15,7 +15,7 @@ function buildCode(title) {
   return `${slug}-${Math.floor(10 + Math.random() * 89)}-OFF`;
 }
 
-// Fecha de validez: 4 meses a partir de hoy, formateada en español
+// Fecha de validez es 4 meses a partir de hoy
 function buildValidUntil() {
   const date = new Date();
   date.setMonth(date.getMonth() + 4);
@@ -36,7 +36,6 @@ export default function RedeemModal({ open, reward, onClose }) {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch {
-      // Si el navegador bloquea el portapapeles, no rompemos la UI
       setCopied(false);
     }
   };
@@ -44,7 +43,7 @@ export default function RedeemModal({ open, reward, onClose }) {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 px-4">
       <div className="bg-white rounded-2xl w-full max-w-md overflow-hidden shadow-2xl">
-        {/* Header verde */}
+        {/* Header */}
         <div className="bg-primary-800 text-white text-center px-6 py-8 relative">
           <button
             onClick={onClose}
@@ -97,7 +96,6 @@ export default function RedeemModal({ open, reward, onClose }) {
             >
               Ir a la Tienda
             </Button>
-            {/* No navega a otra página, solo un botón informativo */}
             <Button variant="outline" className="w-full" onClick={onClose}>
               Ver mis compras
             </Button>

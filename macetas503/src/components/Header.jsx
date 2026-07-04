@@ -10,12 +10,12 @@ export default function Header() {
 
   return (
     <header>
-      {/* Barra de envío gratis con degradado verde */}
+      {/* Aqui esta laBarra de envío gratis*/}
       <div className="bg-gradient-to-r from-primary-900 via-primary-600 to-primary-900 text-white text-center text-sm py-2">
         Envío gratis a compras mayores de 19.99$
       </div>
 
-      {/* Barra principal: iconos, logo y menú de navegación */}
+      {/*Aqui se pueden vericonos, logo y menú de navegación */}
       <div className="bg-gray-50 border-b border-gray-200">
         <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
           <div className="flex items-center gap-3">

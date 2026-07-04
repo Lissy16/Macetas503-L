@@ -28,8 +28,8 @@ export default function EarnPoints() {
     setReviewSent(true);
   };
 
-  // Abre el modal de "Referido Exclusivo"; el botón puede usarse las veces que quieras,
-  // cada apertura genera un código personal nuevo
+  // Abre el modal de "Referido "y el botón puede usarse todas las veces que quieras,
+  // cada wue abre hace un código  nuevo
   const handleReferConfirm = () => {
     addPoints(200, "Referido de amigo");
   };

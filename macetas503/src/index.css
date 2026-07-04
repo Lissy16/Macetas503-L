@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Estilos globales mínimos, todo el diseño se maneja con clases de Tailwind */
+/*todo se maneja con clases de Tailwind */
 body {
   @apply bg-gray-50 text-gray-800 font-sans;
 }
 
-/* Oculta el spinner en inputs number, por si se usan en el futuro */
+/* Oculta el input por si se usa*/
 input[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }

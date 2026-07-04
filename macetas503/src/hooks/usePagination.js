@@ -1,7 +1,6 @@
 import { useMemo, useState } from "react";
 
-// Hook genérico de paginación: recibe un array completo y cuántos items mostrar por página.
-// Devuelve el slice actual + controles para navegar (usado en Historial, Recompensas, Cupones).
+//controles para navegar (usado en Historial, Recompensas, Cupones).
 export function usePagination(items = [], itemsPerPage = 4) {
   const [page, setPage] = useState(1);
 

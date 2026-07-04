@@ -1,5 +1,4 @@
-// Set de iconos en SVG puro (sin librerías externas) usados en toda la app.
-// Reciben className para heredar tamaño/color desde Tailwind.
+// Reciben tamaño y color dee Tailwind.
 
 export const SearchIcon = (props) => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" {...props}>

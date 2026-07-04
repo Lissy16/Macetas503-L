@@ -1,5 +1,4 @@
-// Tarjeta usada en Home ("¿Cómo ganar hojas?") y en Ganar Puntos.
-// `badge` es opcional (ej. "+15 x $1", "+25 hojas").
+// Tarjeta usada en Home  y en Ganar Puntos.
 export default function ActionCard({ icon: Icon, title, description, badge, actionLabel, onAction }) {
   return (
     <div className="bg-white rounded-xl shadow-card p-6 flex flex-col relative">

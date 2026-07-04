@@ -1,6 +1,6 @@
 import Button from "./Button.jsx";
 
-// Tarjeta de cupón/recompensa usada en Recompensas y Cupones
+// Tarjeta de cupóny recompensa que se usa en Recompensas y Cupones
 export default function RewardCard({ reward, onRedeem, redeemed = false }) {
   return (
     <div className="bg-white rounded-xl shadow-card overflow-hidden flex flex-col">

@@ -1,4 +1,4 @@
-// Tabs simples reutilizadas en Historial, Recompensas y Cupones
+// se utilizan en Historial, Recompensas y Cupones
 export default function Tabs({ tabs, active, onChange }) {
   return (
     <div className="flex gap-6 border-b border-gray-200 mb-6">

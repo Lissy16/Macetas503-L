@@ -6,7 +6,7 @@ import leafIcon from "../assets/icon-leaf.png";
 import historyIcon from "../assets/icon-history.png";
 import couponIcon from "../assets/icon-coupon.png";
 
-// Tarjeta principal del Home: muestra nivel actual, balance y barra de progreso
+//muestra nivel actual de las hojos, balance y barra de progreso de puntos
 export default function LevelProgressCard() {
   const { points, currentLevel, nextLevel } = useLoyalty();
 
